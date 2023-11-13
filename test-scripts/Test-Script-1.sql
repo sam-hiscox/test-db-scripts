@@ -6,7 +6,7 @@ BEGIN TRANSACTION;
 
 -- Update the Customer ID from 1 to 99999
 UPDATE salesLT.Customer
-SET Phone = 12345
+SET Phone = 99999
 WHERE CustomerID = 1;
 
 -- Commit the transaction (optional)
